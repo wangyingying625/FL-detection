@@ -1,0 +1,50 @@
+
+共有2个客户端,每个客户端的epoch都为4
+*******training************
+第1 client的 1(共有4轮)
+/Users/taro/Downloads/fedKDD/train.py:123: UserWarning: volatile was removed and now has no effect. Use `with torch.no_grad():` instead.
+  img = Variable(img, volatile=True)
+/Users/taro/Downloads/fedKDD/train.py:124: UserWarning: volatile was removed and now has no effect. Use `with torch.no_grad():` instead.
+  label = Variable(label, volatile=True)
+Finish 1 epoch, Loss: 1.085105, Acc: 0.793769
+*******test************
+第1个客户端单独训练的测试结果
+Test Loss: 1.169467, Acc: 0.792499
+*******training************
+第1 client的 2(共有4轮)
+Finish 2 epoch, Loss: 1.168346, Acc: 0.792416
+*******test************
+第1个客户端单独训练的测试结果
+Test Loss: 0.947822, Acc: 0.792877
+*******training************
+第1 client的 3(共有4轮)
+Finish 3 epoch, Loss: 0.838507, Acc: 0.792832
+*******training************
+第1 client的 4(共有4轮)
+Finish 4 epoch, Loss: 0.687151, Acc: 0.792537
+----------------第1个客户端训练结束---------------
+*******training************
+第2 client的 1(共有4轮)
+Finish 1 epoch, Loss: 1.072225, Acc: 0.817703
+*******test************
+第2个客户端单独训练的测试结果
+Test Loss: 1.323191, Acc: 0.821299
+*******training************
+第2 client的 2(共有4轮)
+Finish 2 epoch, Loss: 1.046666, Acc: 0.826067
+*******training************
+第2 client的 3(共有4轮)
+Finish 3 epoch, Loss: 0.724240, Acc: 0.814550
+*******training************
+第2 client的 4(共有4轮)
+Finish 4 epoch, Loss: 0.551786, Acc: 0.814978
+----------------第2个客户端训练结束---------------
+----------------模型聚合后测试结果----------------------
+/Users/taro/Downloads/fedKDD/train.py:218: UserWarning: volatile was removed and now has no effect. Use `with torch.no_grad():` instead.
+  img = Variable(img, volatile=True)
+/Users/taro/Downloads/fedKDD/train.py:219: UserWarning: volatile was removed and now has no effect. Use `with torch.no_grad():` instead.
+  label = Variable(label, volatile=True)
+第1个客户端测试结果
+Test Loss: 1.041325, Acc: 0.792256
+第2个客户端测试结果
+Test Loss: 1.039840, Acc: 0.794051

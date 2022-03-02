@@ -1,0 +1,16 @@
+{
+    "os": "Darwin-21.3.0-x86_64-i386-64bit",
+    "python": "3.7.0",
+    "heartbeatAt": "2022-02-15T04:57:08.278103",
+    "startedAt": "2022-02-15T04:56:59.562050",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/taro/Downloads/fedKDD/train.py",
+    "codePath": "train.py",
+    "host": "mldwyy.lan",
+    "username": "taro",
+    "executable": "/Users/taro/.pyenv/versions/3.7.0/bin/python"
+}

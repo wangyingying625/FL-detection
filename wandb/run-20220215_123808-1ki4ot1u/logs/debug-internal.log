@@ -1,0 +1,271 @@
+2022-02-15 12:38:09,693 INFO    MainThread:23230 [internal.py:wandb_internal():90] W&B internal server running at pid: 23230, started at: 2022-02-15 12:38:09.692192
+2022-02-15 12:38:09,694 INFO    WriterThread:23230 [datastore.py:open_for_write():77] open: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/run-1ki4ot1u.wandb
+2022-02-15 12:38:09,695 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: check_version
+2022-02-15 12:38:09,697 DEBUG   SenderThread:23230 [sender.py:send():234] send: header
+2022-02-15 12:38:09,697 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: check_version
+2022-02-15 12:38:14,699 DEBUG   SenderThread:23230 [sender.py:send():234] send: run
+2022-02-15 12:38:15,203 INFO    SenderThread:23230 [dir_watcher.py:__init__():169] watching files in: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files
+2022-02-15 12:38:15,203 INFO    SenderThread:23230 [sender.py:_start_run_threads():807] run started: 1ki4ot1u with start time 1644899888
+2022-02-15 12:38:15,203 DEBUG   SenderThread:23230 [sender.py:send():234] send: summary
+2022-02-15 12:38:15,206 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: run_start
+2022-02-15 12:38:15,212 INFO    SenderThread:23230 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-15 12:38:17,251 INFO    Thread-8  :23230 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/wandb-summary.json
+2022-02-15 12:38:20,045 DEBUG   HandlerThread:23230 [meta.py:__init__():40] meta init
+2022-02-15 12:38:20,046 DEBUG   HandlerThread:23230 [meta.py:__init__():54] meta init done
+2022-02-15 12:38:20,046 DEBUG   HandlerThread:23230 [meta.py:probe():214] probe
+2022-02-15 12:38:20,047 DEBUG   HandlerThread:23230 [git.py:repo():33] git repository is invalid
+2022-02-15 12:38:20,047 DEBUG   HandlerThread:23230 [meta.py:_save_pip():58] save pip
+2022-02-15 12:38:20,048 DEBUG   HandlerThread:23230 [meta.py:_save_pip():72] save pip done
+2022-02-15 12:38:20,048 DEBUG   HandlerThread:23230 [meta.py:probe():252] probe done
+2022-02-15 12:38:20,053 DEBUG   SenderThread:23230 [sender.py:send():234] send: files
+2022-02-15 12:38:20,053 INFO    SenderThread:23230 [sender.py:_save_file():939] saving file wandb-metadata.json with policy now
+2022-02-15 12:38:20,060 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-15 12:38:20,061 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: stop_status
+2022-02-15 12:38:20,255 INFO    Thread-8  :23230 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/requirements.txt
+2022-02-15 12:38:20,256 INFO    Thread-8  :23230 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/output.log
+2022-02-15 12:38:20,256 INFO    Thread-8  :23230 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/wandb-metadata.json
+2022-02-15 12:38:21,160 INFO    Thread-11 :23230 [upload_job.py:push():137] Uploaded file /var/folders/zt/2hf9nths4bz7_jsc3q6n229h0000gp/T/tmpxr8xl7xswandb/ewte7j11-wandb-metadata.json
+2022-02-15 12:38:22,261 INFO    Thread-8  :23230 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/output.log
+2022-02-15 12:38:35,486 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-15 12:38:35,487 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: stop_status
+2022-02-15 12:38:46,339 INFO    Thread-8  :23230 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/output.log
+2022-02-15 12:38:48,896 DEBUG   SenderThread:23230 [sender.py:send():234] send: stats
+2022-02-15 12:38:50,962 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-15 12:38:50,963 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: stop_status
+2022-02-15 12:39:03,725 DEBUG   SenderThread:23230 [sender.py:send():234] send: history
+2022-02-15 12:39:03,725 DEBUG   SenderThread:23230 [sender.py:send():234] send: summary
+2022-02-15 12:39:03,732 INFO    SenderThread:23230 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-15 12:39:04,385 INFO    Thread-8  :23230 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/wandb-summary.json
+2022-02-15 12:39:06,389 INFO    Thread-8  :23230 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/output.log
+2022-02-15 12:39:06,741 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-15 12:39:06,741 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: stop_status
+2022-02-15 12:39:07,166 DEBUG   SenderThread:23230 [sender.py:send():234] send: history
+2022-02-15 12:39:07,166 DEBUG   SenderThread:23230 [sender.py:send():234] send: summary
+2022-02-15 12:39:07,174 INFO    SenderThread:23230 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-15 12:39:07,175 DEBUG   SenderThread:23230 [sender.py:send():234] send: history
+2022-02-15 12:39:07,175 DEBUG   SenderThread:23230 [sender.py:send():234] send: summary
+2022-02-15 12:39:07,175 INFO    SenderThread:23230 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-15 12:39:07,394 INFO    Thread-8  :23230 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/wandb-summary.json
+2022-02-15 12:39:08,399 INFO    Thread-8  :23230 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/output.log
+2022-02-15 12:39:19,631 DEBUG   SenderThread:23230 [sender.py:send():234] send: stats
+2022-02-15 12:39:22,205 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-15 12:39:22,205 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: stop_status
+2022-02-15 12:39:23,503 DEBUG   SenderThread:23230 [sender.py:send():234] send: history
+2022-02-15 12:39:23,504 DEBUG   SenderThread:23230 [sender.py:send():234] send: summary
+2022-02-15 12:39:23,511 INFO    SenderThread:23230 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-15 12:39:24,440 INFO    Thread-8  :23230 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/wandb-summary.json
+2022-02-15 12:39:26,450 INFO    Thread-8  :23230 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/output.log
+2022-02-15 12:39:28,458 INFO    Thread-8  :23230 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/output.log
+2022-02-15 12:39:37,648 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-15 12:39:37,649 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: stop_status
+2022-02-15 12:39:42,960 DEBUG   SenderThread:23230 [sender.py:send():234] send: history
+2022-02-15 12:39:42,960 DEBUG   SenderThread:23230 [sender.py:send():234] send: summary
+2022-02-15 12:39:42,968 INFO    SenderThread:23230 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-15 12:39:43,508 INFO    Thread-8  :23230 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/wandb-summary.json
+2022-02-15 12:39:44,513 INFO    Thread-8  :23230 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/output.log
+2022-02-15 12:39:48,522 INFO    Thread-8  :23230 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/output.log
+2022-02-15 12:39:50,397 DEBUG   SenderThread:23230 [sender.py:send():234] send: stats
+2022-02-15 12:39:53,283 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-15 12:39:53,283 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: stop_status
+2022-02-15 12:40:03,952 DEBUG   SenderThread:23230 [sender.py:send():234] send: history
+2022-02-15 12:40:03,953 DEBUG   SenderThread:23230 [sender.py:send():234] send: summary
+2022-02-15 12:40:03,962 INFO    SenderThread:23230 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-15 12:40:04,558 INFO    Thread-8  :23230 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/wandb-summary.json
+2022-02-15 12:40:06,564 INFO    Thread-8  :23230 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/output.log
+2022-02-15 12:40:08,574 INFO    Thread-8  :23230 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/output.log
+2022-02-15 12:40:09,045 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-15 12:40:09,046 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: stop_status
+2022-02-15 12:40:21,168 DEBUG   SenderThread:23230 [sender.py:send():234] send: stats
+2022-02-15 12:40:21,617 INFO    Thread-8  :23230 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/output.log
+2022-02-15 12:40:24,488 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-15 12:40:24,488 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: stop_status
+2022-02-15 12:40:36,567 DEBUG   SenderThread:23230 [sender.py:send():234] send: history
+2022-02-15 12:40:36,567 DEBUG   SenderThread:23230 [sender.py:send():234] send: summary
+2022-02-15 12:40:36,575 INFO    SenderThread:23230 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-15 12:40:36,660 INFO    Thread-8  :23230 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/wandb-summary.json
+2022-02-15 12:40:37,665 INFO    Thread-8  :23230 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/output.log
+2022-02-15 12:40:39,278 DEBUG   SenderThread:23230 [sender.py:send():234] send: history
+2022-02-15 12:40:39,280 DEBUG   SenderThread:23230 [sender.py:send():234] send: summary
+2022-02-15 12:40:39,284 INFO    SenderThread:23230 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-15 12:40:39,284 DEBUG   SenderThread:23230 [sender.py:send():234] send: history
+2022-02-15 12:40:39,285 DEBUG   SenderThread:23230 [sender.py:send():234] send: summary
+2022-02-15 12:40:39,285 INFO    SenderThread:23230 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-15 12:40:39,670 INFO    Thread-8  :23230 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/wandb-summary.json
+2022-02-15 12:40:40,087 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-15 12:40:40,087 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: stop_status
+2022-02-15 12:40:41,678 INFO    Thread-8  :23230 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/output.log
+2022-02-15 12:40:51,934 DEBUG   SenderThread:23230 [sender.py:send():234] send: stats
+2022-02-15 12:40:55,514 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-15 12:40:55,514 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: stop_status
+2022-02-15 12:41:00,593 DEBUG   SenderThread:23230 [sender.py:send():234] send: history
+2022-02-15 12:41:00,594 DEBUG   SenderThread:23230 [sender.py:send():234] send: summary
+2022-02-15 12:41:00,602 INFO    SenderThread:23230 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-15 12:41:00,751 INFO    Thread-8  :23230 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/wandb-summary.json
+2022-02-15 12:41:03,756 INFO    Thread-8  :23230 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/output.log
+2022-02-15 12:41:05,763 INFO    Thread-8  :23230 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/output.log
+2022-02-15 12:41:10,946 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-15 12:41:10,947 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: stop_status
+2022-02-15 12:41:22,208 DEBUG   SenderThread:23230 [sender.py:send():234] send: history
+2022-02-15 12:41:22,208 DEBUG   SenderThread:23230 [sender.py:send():234] send: summary
+2022-02-15 12:41:22,217 INFO    SenderThread:23230 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-15 12:41:22,668 DEBUG   SenderThread:23230 [sender.py:send():234] send: stats
+2022-02-15 12:41:22,817 INFO    Thread-8  :23230 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/wandb-summary.json
+2022-02-15 12:41:23,816 INFO    Thread-8  :23230 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/output.log
+2022-02-15 12:41:26,464 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-15 12:41:26,464 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: stop_status
+2022-02-15 12:41:27,829 INFO    Thread-8  :23230 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/output.log
+2022-02-15 12:41:42,407 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-15 12:41:42,408 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: stop_status
+2022-02-15 12:41:43,856 DEBUG   SenderThread:23230 [sender.py:send():234] send: history
+2022-02-15 12:41:43,856 DEBUG   SenderThread:23230 [sender.py:send():234] send: summary
+2022-02-15 12:41:43,867 INFO    SenderThread:23230 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-15 12:41:43,876 INFO    Thread-8  :23230 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/wandb-summary.json
+2022-02-15 12:41:45,884 INFO    Thread-8  :23230 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/output.log
+2022-02-15 12:41:48,896 INFO    Thread-8  :23230 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/output.log
+2022-02-15 12:41:49,899 INFO    Thread-8  :23230 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/output.log
+2022-02-15 12:41:50,469 DEBUG   SenderThread:23230 [sender.py:send():234] send: history
+2022-02-15 12:41:50,470 DEBUG   SenderThread:23230 [sender.py:send():234] send: summary
+2022-02-15 12:41:50,478 INFO    SenderThread:23230 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-15 12:41:50,478 DEBUG   SenderThread:23230 [sender.py:send():234] send: history
+2022-02-15 12:41:50,479 DEBUG   SenderThread:23230 [sender.py:send():234] send: summary
+2022-02-15 12:41:50,479 INFO    SenderThread:23230 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-15 12:41:50,904 INFO    Thread-8  :23230 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/wandb-summary.json
+2022-02-15 12:41:51,910 INFO    Thread-8  :23230 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/output.log
+2022-02-15 12:41:53,241 DEBUG   SenderThread:23230 [sender.py:send():234] send: history
+2022-02-15 12:41:53,243 DEBUG   SenderThread:23230 [sender.py:send():234] send: summary
+2022-02-15 12:41:53,243 INFO    SenderThread:23230 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-15 12:41:53,243 DEBUG   SenderThread:23230 [sender.py:send():234] send: history
+2022-02-15 12:41:53,244 DEBUG   SenderThread:23230 [sender.py:send():234] send: summary
+2022-02-15 12:41:53,244 INFO    SenderThread:23230 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-15 12:41:53,377 DEBUG   SenderThread:23230 [sender.py:send():234] send: stats
+2022-02-15 12:41:53,918 INFO    Thread-8  :23230 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/wandb-summary.json
+2022-02-15 12:41:54,923 INFO    Thread-8  :23230 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/output.log
+2022-02-15 12:41:56,099 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-15 12:41:56,100 DEBUG   SenderThread:23230 [sender.py:send():234] send: telemetry
+2022-02-15 12:41:56,100 DEBUG   SenderThread:23230 [sender.py:send():234] send: exit
+2022-02-15 12:41:56,100 INFO    SenderThread:23230 [sender.py:send_exit():366] handling exit code: 1
+2022-02-15 12:41:56,101 INFO    SenderThread:23230 [sender.py:send_exit():368] handling runtime: 220
+2022-02-15 12:41:56,102 INFO    SenderThread:23230 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-15 12:41:56,103 INFO    SenderThread:23230 [sender.py:send_exit():374] send defer
+2022-02-15 12:41:56,103 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: poll_exit
+2022-02-15 12:41:56,104 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: defer
+2022-02-15 12:41:56,105 INFO    HandlerThread:23230 [handler.py:handle_request_defer():147] handle defer: 0
+2022-02-15 12:41:56,105 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: defer
+2022-02-15 12:41:56,105 INFO    SenderThread:23230 [sender.py:send_request_defer():383] handle sender defer: 0
+2022-02-15 12:41:56,106 INFO    SenderThread:23230 [sender.py:transition_state():387] send defer: 1
+2022-02-15 12:41:56,106 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: defer
+2022-02-15 12:41:56,107 INFO    HandlerThread:23230 [handler.py:handle_request_defer():147] handle defer: 1
+2022-02-15 12:41:56,141 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: defer
+2022-02-15 12:41:56,142 INFO    SenderThread:23230 [sender.py:send_request_defer():383] handle sender defer: 1
+2022-02-15 12:41:56,142 INFO    SenderThread:23230 [sender.py:transition_state():387] send defer: 2
+2022-02-15 12:41:56,142 DEBUG   SenderThread:23230 [sender.py:send():234] send: stats
+2022-02-15 12:41:56,143 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: defer
+2022-02-15 12:41:56,144 INFO    HandlerThread:23230 [handler.py:handle_request_defer():147] handle defer: 2
+2022-02-15 12:41:56,144 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: defer
+2022-02-15 12:41:56,144 INFO    SenderThread:23230 [sender.py:send_request_defer():383] handle sender defer: 2
+2022-02-15 12:41:56,144 INFO    SenderThread:23230 [sender.py:transition_state():387] send defer: 3
+2022-02-15 12:41:56,145 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: defer
+2022-02-15 12:41:56,145 INFO    HandlerThread:23230 [handler.py:handle_request_defer():147] handle defer: 3
+2022-02-15 12:41:56,146 DEBUG   SenderThread:23230 [sender.py:send():234] send: summary
+2022-02-15 12:41:56,147 INFO    SenderThread:23230 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-15 12:41:56,147 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: defer
+2022-02-15 12:41:56,148 INFO    SenderThread:23230 [sender.py:send_request_defer():383] handle sender defer: 3
+2022-02-15 12:41:56,148 INFO    SenderThread:23230 [sender.py:transition_state():387] send defer: 4
+2022-02-15 12:41:56,148 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: defer
+2022-02-15 12:41:56,149 INFO    HandlerThread:23230 [handler.py:handle_request_defer():147] handle defer: 4
+2022-02-15 12:41:56,149 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: defer
+2022-02-15 12:41:56,149 INFO    SenderThread:23230 [sender.py:send_request_defer():383] handle sender defer: 4
+2022-02-15 12:41:56,213 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-15 12:41:56,932 INFO    Thread-8  :23230 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/output.log
+2022-02-15 12:41:56,933 INFO    Thread-8  :23230 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/wandb-summary.json
+2022-02-15 12:41:57,399 INFO    SenderThread:23230 [sender.py:transition_state():387] send defer: 5
+2022-02-15 12:41:57,400 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: poll_exit
+2022-02-15 12:41:57,401 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: defer
+2022-02-15 12:41:57,402 INFO    HandlerThread:23230 [handler.py:handle_request_defer():147] handle defer: 5
+2022-02-15 12:41:57,403 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: defer
+2022-02-15 12:41:57,403 INFO    SenderThread:23230 [sender.py:send_request_defer():383] handle sender defer: 5
+2022-02-15 12:41:57,403 INFO    SenderThread:23230 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-02-15 12:41:57,506 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-15 12:41:57,933 INFO    Thread-8  :23230 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/config.yaml
+2022-02-15 12:41:57,935 INFO    SenderThread:23230 [dir_watcher.py:finish():313] scan: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files
+2022-02-15 12:41:57,935 INFO    SenderThread:23230 [dir_watcher.py:finish():327] scan save: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/requirements.txt requirements.txt
+2022-02-15 12:41:57,936 INFO    SenderThread:23230 [dir_watcher.py:finish():327] scan save: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/output.log output.log
+2022-02-15 12:41:57,944 INFO    SenderThread:23230 [dir_watcher.py:finish():327] scan save: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/config.yaml config.yaml
+2022-02-15 12:41:57,955 INFO    SenderThread:23230 [dir_watcher.py:finish():327] scan save: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/wandb-summary.json wandb-summary.json
+2022-02-15 12:41:57,956 INFO    SenderThread:23230 [dir_watcher.py:finish():327] scan save: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/wandb-metadata.json wandb-metadata.json
+2022-02-15 12:41:57,961 INFO    SenderThread:23230 [sender.py:transition_state():387] send defer: 6
+2022-02-15 12:41:57,961 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: poll_exit
+2022-02-15 12:41:57,966 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: defer
+2022-02-15 12:41:57,966 INFO    HandlerThread:23230 [handler.py:handle_request_defer():147] handle defer: 6
+2022-02-15 12:41:57,967 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: defer
+2022-02-15 12:41:57,967 INFO    SenderThread:23230 [sender.py:send_request_defer():383] handle sender defer: 6
+2022-02-15 12:41:57,968 INFO    SenderThread:23230 [file_pusher.py:finish():177] shutting down file pusher
+2022-02-15 12:41:58,068 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-15 12:41:58,069 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: poll_exit
+2022-02-15 12:41:58,172 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-15 12:41:58,174 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: poll_exit
+2022-02-15 12:41:58,281 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-15 12:41:58,282 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: poll_exit
+2022-02-15 12:41:58,385 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-15 12:41:58,385 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: poll_exit
+2022-02-15 12:41:58,489 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-15 12:41:58,489 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: poll_exit
+2022-02-15 12:41:58,597 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-15 12:41:58,597 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: poll_exit
+2022-02-15 12:41:58,706 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-15 12:41:58,706 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: poll_exit
+2022-02-15 12:41:58,813 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-15 12:41:58,813 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: poll_exit
+2022-02-15 12:41:58,916 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-15 12:41:58,917 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: poll_exit
+2022-02-15 12:41:59,022 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-15 12:41:59,023 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: poll_exit
+2022-02-15 12:41:59,053 INFO    Thread-15 :23230 [upload_job.py:push():137] Uploaded file /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/wandb-summary.json
+2022-02-15 12:41:59,128 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-15 12:41:59,129 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: poll_exit
+2022-02-15 12:41:59,234 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-15 12:41:59,236 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: poll_exit
+2022-02-15 12:41:59,345 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-15 12:41:59,346 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: poll_exit
+2022-02-15 12:41:59,350 INFO    Thread-14 :23230 [upload_job.py:push():137] Uploaded file /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/config.yaml
+2022-02-15 12:41:59,423 INFO    Thread-12 :23230 [upload_job.py:push():137] Uploaded file /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/requirements.txt
+2022-02-15 12:41:59,460 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-15 12:41:59,460 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: poll_exit
+2022-02-15 12:41:59,568 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-15 12:41:59,569 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: poll_exit
+2022-02-15 12:41:59,608 INFO    Thread-13 :23230 [upload_job.py:push():137] Uploaded file /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/files/output.log
+2022-02-15 12:41:59,673 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-15 12:41:59,674 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: poll_exit
+2022-02-15 12:41:59,781 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-15 12:41:59,782 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: poll_exit
+2022-02-15 12:41:59,813 INFO    Thread-7  :23230 [sender.py:transition_state():387] send defer: 7
+2022-02-15 12:41:59,815 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: defer
+2022-02-15 12:41:59,815 INFO    HandlerThread:23230 [handler.py:handle_request_defer():147] handle defer: 7
+2022-02-15 12:41:59,815 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: defer
+2022-02-15 12:41:59,815 INFO    SenderThread:23230 [sender.py:send_request_defer():383] handle sender defer: 7
+2022-02-15 12:41:59,888 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-15 12:42:00,600 INFO    SenderThread:23230 [sender.py:transition_state():387] send defer: 8
+2022-02-15 12:42:00,601 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: poll_exit
+2022-02-15 12:42:00,603 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: defer
+2022-02-15 12:42:00,603 INFO    HandlerThread:23230 [handler.py:handle_request_defer():147] handle defer: 8
+2022-02-15 12:42:00,604 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: defer
+2022-02-15 12:42:00,604 INFO    SenderThread:23230 [sender.py:send_request_defer():383] handle sender defer: 8
+2022-02-15 12:42:00,604 INFO    SenderThread:23230 [sender.py:transition_state():387] send defer: 9
+2022-02-15 12:42:00,606 DEBUG   SenderThread:23230 [sender.py:send():234] send: final
+2022-02-15 12:42:00,606 DEBUG   SenderThread:23230 [sender.py:send():234] send: footer
+2022-02-15 12:42:00,607 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: defer
+2022-02-15 12:42:00,607 INFO    HandlerThread:23230 [handler.py:handle_request_defer():147] handle defer: 9
+2022-02-15 12:42:00,607 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: defer
+2022-02-15 12:42:00,607 INFO    SenderThread:23230 [sender.py:send_request_defer():383] handle sender defer: 9
+2022-02-15 12:42:00,706 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-15 12:42:00,707 DEBUG   SenderThread:23230 [sender.py:send_request():248] send_request: poll_exit
+2022-02-15 12:42:00,707 INFO    SenderThread:23230 [file_pusher.py:join():182] waiting for file pusher
+2022-02-15 12:42:02,208 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: get_summary
+2022-02-15 12:42:02,210 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: sampled_history
+2022-02-15 12:42:02,212 DEBUG   HandlerThread:23230 [handler.py:handle_request():130] handle_request: shutdown
+2022-02-15 12:42:02,212 INFO    HandlerThread:23230 [handler.py:finish():731] shutting down handler
+2022-02-15 12:42:02,612 INFO    WriterThread:23230 [datastore.py:close():281] close: /Users/taro/Downloads/fedKDD/wandb/run-20220215_123808-1ki4ot1u/run-1ki4ot1u.wandb
+2022-02-15 12:42:03,208 INFO    SenderThread:23230 [sender.py:finish():1070] shutting down sender
+2022-02-15 12:42:03,209 INFO    SenderThread:23230 [file_pusher.py:finish():177] shutting down file pusher
+2022-02-15 12:42:03,209 INFO    SenderThread:23230 [file_pusher.py:join():182] waiting for file pusher
+2022-02-15 12:42:03,215 INFO    MainThread:23230 [internal.py:handle_exit():77] Internal process exited

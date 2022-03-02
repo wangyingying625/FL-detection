@@ -1,0 +1,13 @@
+
+共有2个客户端,每个客户端的epoch都为4
+*******training************
+第1 client的 1(共有4轮)
+Finish 1 epoch, Loss: 1.072656, Acc: 0.763108
+Traceback (most recent call last):
+  File "/Users/taro/Downloads/fedKDD/train.py", line 292, in <module>
+    test_data,test_data_len,params=train(client_num,batch_size,num_epoches)
+  File "/Users/taro/Downloads/fedKDD/train.py", line 232, in train
+    param=single_train(dataset,i,epoch)
+  File "/Users/taro/Downloads/fedKDD/train.py", line 139, in single_train
+    ys=[loss_list, val_loss],
+NameError: name 'val_loss' is not defined
