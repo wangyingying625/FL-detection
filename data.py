@@ -1,6 +1,6 @@
 import numpy as np
 import ssl
-
+import tensorflow as tf
 from sklearn import datasets
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
@@ -9,14 +9,29 @@ import torch
 from torch.utils.data import DataLoader
 from torch.utils.data import TensorDataset
 ssl._create_default_https_context = ssl._create_unverified_context
+def getBinaryTensor(imgTensor):
+    # one = tf.ones_like(imgTensor)
+    one=np.ones(imgTensor.shape)
+    return one
 
-
+def convert(label):
+    list1=label.tolist()
+    list_new=list1
+    for (i) in (range(len(list1))):
+        if list1[i]==0:
+            list_new[i]=0
+        elif list1[i]==1:
+            list_new[i]=0
+        elif list1[i] == 2:
+            list_new[i] = 0
+        elif list1[i] == 3:
+            list_new[i] = 3
+    return  np.array(list_new)
 # 数据集分成三份（每一份中有test+train），装进tensor的数组里返回
 class KddData(object):
 
-    def __init__(self, batch_size,data_x,data_y):
+    def __init__(self, batch_size,data_x,data_y,convert_client,constant_data):
     # def __init__(self, batch_size, train_data,train_target, test_data,test_target):
-
         self._encoder = {
             'protocal': LabelEncoder(),
             'service':  LabelEncoder(),
@@ -24,10 +39,12 @@ class KddData(object):
             'label':    LabelEncoder()
         }
         self.batch_size = batch_size
+        self.convert_client=convert_client
+        self.constant_data=constant_data
         data_X, data_y = self.__encode_data(data_x, data_y)
         self.train_dataset, self.test_dataset = self.__split_data_to_tensor(data_X, data_y)
-        self.train_dataloader = DataLoader(self.train_dataset, self.batch_size, shuffle=True)
-        self.test_dataloader = DataLoader(self.test_dataset, self.batch_size, shuffle=True)
+        self.train_dataloader = DataLoader(self.train_dataset, self.batch_size, shuffle=False)
+        self.test_dataloader = DataLoader(self.test_dataset, self.batch_size, shuffle=False)
 
 
     """将数据中字符串部分转换为数字，并将输入的41维特征转换为8*8的矩阵"""
@@ -48,8 +65,11 @@ class KddData(object):
 
     """将数据拆分为训练集和测试集，并转换为TensorDataset对象"""
     def __split_data_to_tensor(self, data_X, data_y):
-        X_train, X_test, y_train, y_test = train_test_split(data_X, data_y, test_size=0.3)
-
+        X_train, X_test, y_train, y_test = train_test_split(data_X, data_y, test_size=0.3,random_state=100)
+        if(self.convert_client!=0):
+            y_train=convert(y_train)
+        if (self.constant_data != 0):
+            X_train = getBinaryTensor(X_train.astype(np.float32))
         train_dataset = TensorDataset(
             torch.from_numpy(X_train.astype(np.float32)),
             torch.from_numpy(y_train.astype(np.int64))
@@ -71,7 +91,7 @@ class KddData(object):
         data_y = data['y']
 
         # randomly shuffle data 打乱数据集
-        np.random.seed(100)
+        np.random.seed(90)
         rng_state = np.random.get_state()
         np.random.shuffle(data_x)
         np.random.set_state(rng_state)

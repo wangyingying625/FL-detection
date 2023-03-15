@@ -1,1 +1,0 @@
-{"Train/Acc": 0.7921197538290685, "round": 4, "_runtime": 185, "_timestamp": 1644895423, "_step": 23, "Train/Loss": 0.6923613255399385, "\u6d4b\u8bd5\u60c5\u51b5\uff1a": "\u805a\u5408\u540e\u6d4b\u8bd5", "client": 2, "Test/Acc": 0.7939969768948392, "Test/Loss": 1.0745319192390466, "_wandb": {"runtime": 183}}
